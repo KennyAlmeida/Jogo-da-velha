@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #eaeaea;
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease-in-out;
+    height: 95px;
+  }
+  
+  .cell:hover {
+    background-color: #d5d5d5;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #message {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+
+  #ativar-cpu{
+    display: none;
+    background-color: rgb(15, 15, 151);
+  }
+
+  #ativar-player2{
+    background-color: rgb(15, 15, 151);
+  }
